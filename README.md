@@ -14,9 +14,6 @@
 ## 🚀 论文速览
 
 
-> **标题**  SuperWriter: *Reflection-Driven Long-Form Generation with Large Language Models*  
-> **模型**  即将开放 - SuperWriter-LM (Qwen-2.5-7B-instruction 基础)  
-> **要点** :
 > 1. 提出 **SuperWriter-Agent**，显式嵌入 *Thinking* 与 *Reflection* 信号。    
 > 2. 设计 **Hierarchical DPO + MCTS**，从最终输出反向传播质量信号。  
 > 3. 在 **WritingBench** 综合得分 **8.51**，位列全部模型第二，仅次于 DeepSeek-R1 (671 B)。  
@@ -26,7 +23,7 @@
 
 ## 🛠️ 方法框架
 <p align="center">
-  <img src="/Users/wyh/Desktop/SuperWriter/Fig/Agent (1).png" width="700px" alt="SuperWriter Logo">
+  <img src="/Fig/Agent (1).png" width="700px" alt="SuperWriter Logo">
 </p>
 
 
@@ -53,14 +50,14 @@
 ### 1. WritingBench 综合评测
 
 <p align="center">
-  <img src="/Users/wyh/Desktop/SuperWriter/Fig/WritingBench.png" width="600px" alt="SuperWriter Logo">
+  <img src="Fig/WritingBench.png" width="600px" alt="SuperWriter Logo">
 </p>
 
 *SuperWriter-LM* 在 **Academic & Engineering / Finance & Business / Politics & Law / Education** 四大领域取得最高分，在同尺寸模型中排名第一。
 
 ### 2. 用户查询 Win-Rate
 <p align="center">
-  <img src="/Users/wyh/Desktop/SuperWriter/Fig/winrate_plots.png" width="600px" alt="SuperWriter Logo">
+  <img src="Fig/winrate_plots.png" width="600px" alt="SuperWriter Logo">
 </p>
 > **计算规则**：Win = 1，Tie = 0.5，Loss = 0 ；共 8 组 Donut 图，其中第 8 组为人工评估。SuperWriter-LM 在 7 B 组别保持绝对领先，对更大模型亦具竞争力。
 
@@ -103,8 +100,8 @@
 ---
 
 ### 🏋️‍♂️ 模型训练
-- 使用 **LLaMA-Factory** 与 **360-LLama-Factory** 进行微调。  
-
+- 使用 **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory):contentReference[oaicite:0]{index=0}** 与 **[360-LLaMA-Factory](https://github.com/Qihoo360/360-LLaMA-Factory):contentReference[oaicite:1]{index=1}** 进行微调。  
+ 
 ---
 
 ## 🤝 引用
