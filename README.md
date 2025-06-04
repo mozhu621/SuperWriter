@@ -1,6 +1,6 @@
 <!-- 项目 Logo 或开篇示意图（请在本地 repo 的 Fig 文件夹中替换同名文件即可） -->
 <p align="center">
-  <img src="Fig/SuperWriter.png" width="500px" alt="SuperWriter Logo">
+  <img src="Fig/SuperWriter.png" width="600px" alt="SuperWriter Logo">
 </p>
 
 
@@ -23,7 +23,7 @@
 
 ## 🛠️ 方法框架
 <p align="center">
-  <img src="/Fig/Agent (1).png" width="700px" alt="SuperWriter Logo">
+  <img src="/Fig/Agent (1).png" width="800px" alt="SuperWriter Logo">
 </p>
 
 
@@ -36,7 +36,7 @@
 ### 分层 DPO (Hierarchical DPO)
 
 <p align="center">
-  <img src="Fig/DPO (1).png" width="600px" alt="SuperWriter Logo">
+  <img src="Fig/DPO (1).png" width="800px" alt="SuperWriter Logo">
 </p>
 
 > 使用 **Monte-Carlo Tree Search** 构建 (Plan i, Draft j, Refine k) 三层写作树，  
@@ -100,7 +100,7 @@
 ---
 
 ### 🏋️‍♂️ 模型训练
-- 使用 **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory):contentReference[oaicite:0]{index=0}** 与 **[360-LLaMA-Factory](https://github.com/Qihoo360/360-LLaMA-Factory):contentReference[oaicite:1]{index=1}** 进行微调。  
+- 使用 **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)** 与 **[360-LLaMA-Factory](https://github.com/Qihoo360/360-LLaMA-Factory)** 进行微调。  感谢相关工作的支持！
  
 ---
 
