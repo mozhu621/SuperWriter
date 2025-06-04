@@ -17,10 +17,9 @@
 > **标题**  SuperWriter: *Reflection-Driven Long-Form Generation with Large Language Models*  
 > **模型**  即将开放 - SuperWriter-LM (Qwen-2.5-7B-instruction 基础)  
 > **要点** :
-> 1. 提出 **SuperWriter-Agent**，显式嵌入 *Thinking* 与 *Reflection* 信号。  
-> 2. 构建三阶段、共 **12 k** 条 SFT 数据 (4 k Plan / 4 k Write / 4 k Refine)。  
-> 3. 设计 **Hierarchical DPO + MCTS**，从最终输出反向传播质量信号。  
-> 4. 在 **WritingBench** 综合得分 **8.51**，位列全部模型第二，仅次于 DeepSeek-R1 (671 B)。  
+> 1. 提出 **SuperWriter-Agent**，显式嵌入 *Thinking* 与 *Reflection* 信号。    
+> 2. 设计 **Hierarchical DPO + MCTS**，从最终输出反向传播质量信号。  
+> 3. 在 **WritingBench** 综合得分 **8.51**，位列全部模型第二，仅次于 DeepSeek-R1 (671 B)。  
 
 
 ---
