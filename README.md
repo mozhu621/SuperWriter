@@ -8,7 +8,7 @@
 ### Language/语言: [English](./README.md) | [中文](./README_zh.md)
 
 <p align="center">
-  📄 <a href="https://arxiv.org/abs/2506.04180">Paper</a> • 🤗 <a href="https://huggingface.co/wuyuhao/SuperWriter-LM">Model&nbsp;(coming&nbsp;soon)</a>
+  📄 <a href="https://arxiv.org/abs/2506.04180">Paper</a> • 🤗 <a href="https://huggingface.co/mozhu/SuperWriter-Qwen2.5-7B/tree/main">Model&nbsp;(coming&nbsp;soon)</a>
 </p>
 
 **SuperWriter-agent** is an intelligent writing agent framework for **long-form text generation**, inspired by the human workflow of *think first, write later*.  
