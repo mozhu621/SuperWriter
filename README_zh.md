@@ -8,7 +8,7 @@
 # 📚 SuperWriter: Reflection-Driven Long-Form Generation with Large Language Models
 ### Language/语言: [English](./README.md) | [中文](./README_zh.md)
 <p align="center">
-  📄 <a href="https://arxiv.org/abs/1234.5678">Paper    •    🤗 <a href="https://huggingface.co/wuyuhao/SuperWriter-LM">Model(即将发布)</a> 
+  📄 <a href="https://arxiv.org/abs/2506.04180">Paper    •    🤗 <a href="https://huggingface.co/wuyuhao/SuperWriter-LM">Model(即将发布)</a> 
 </p>
 
 *SuperWriter*-agent 是一个面向 **长篇文本生成** 的智能写作框架，灵感源于人类作者的“先思考、后下笔”工作流。通过 **Plan → Write → Refine** 的三阶段代理式流程生成数据与分层偏好优化（Hierarchical DPO），训练后的SuperWriter-LM 在 **7 B 参数** 规模下即可实现对更大模型的竞争性甚至领先性表现。
@@ -111,11 +111,14 @@
 ## 🤝 引用
 
 ```bibtex
-@article{wu2025superwriter,
-  title   = {SuperWriter: Reflection-Driven Long-Form Generation with Large Language Models},
-  author  = {Yuhao Wu and Yushi Bai and Zhiqiang Hu and Juanzi Li and Roy Ka-Wei Lee},
-  journal = {arXiv preprint arXiv:2506.XXXXX},
-  year    = {2025}
+@misc{wu2025superwriterreflectiondrivenlongformgeneration,
+      title={SuperWriter: Reflection-Driven Long-Form Generation with Large Language Models}, 
+      author={Yuhao Wu and Yushi Bai and Zhiqiang Hu and Juanzi Li and Roy Ka-Wei Lee},
+      year={2025},
+      eprint={2506.04180},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.04180}, 
 }
 ```
 
