@@ -8,7 +8,7 @@
 ### Language/语言: [English](./README.md) | [中文](./README_zh.md)
 
 <p align="center">
-  📄 <a href="https://arxiv.org/abs/1234.5678">Paper</a> • 🤗 <a href="https://huggingface.co/wuyuhao/SuperWriter-LM">Model&nbsp;(coming&nbsp;soon)</a>
+  📄 <a href="https://arxiv.org/abs/2506.04180">Paper</a> • 🤗 <a href="https://huggingface.co/wuyuhao/SuperWriter-LM">Model&nbsp;(coming&nbsp;soon)</a>
 </p>
 
 **SuperWriter-agent** is an intelligent writing agent framework for **long-form text generation**, inspired by the human workflow of *think first, write later*.  
@@ -94,9 +94,12 @@ Many thanks to these projects!
 
 ## 🤝 Citation
 ```bibtex
-@article{wu2025superwriter,
-  title   = {SuperWriter: Reflection-Driven Long-Form Generation with Large Language Models},
-  author  = {Yuhao Wu and Yushi Bai and Zhiqiang Hu and Juanzi Li and Roy Ka-Wei Lee},
-  journal = {arXiv preprint arXiv:2506.XXXXX},
-  year    = {2025}
+@misc{wu2025superwriterreflectiondrivenlongformgeneration,
+      title={SuperWriter: Reflection-Driven Long-Form Generation with Large Language Models}, 
+      author={Yuhao Wu and Yushi Bai and Zhiqiang Hu and Juanzi Li and Roy Ka-Wei Lee},
+      year={2025},
+      eprint={2506.04180},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.04180}, 
 }
